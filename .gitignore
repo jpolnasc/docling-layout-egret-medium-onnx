@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+
+# Export scripts and artifacts — not needed for inference
+export_onnx.py
+test_inference.py
+requirements-export.txt
+EXPORT.md
+model_cache/
+onnx_output/docling_layout_egret_medium.onnx
+
+# Test and debug output
+test_imgs/
+density_output/
+
+# Editor / OS
+.vscode/
+.idea/
+*.DS_Store
+Thumbs.db
